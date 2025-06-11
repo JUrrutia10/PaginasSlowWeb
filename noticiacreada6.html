@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitio de Noticias</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fdf6e3;
+      color: #333;
+      font-size: 20px;
+    }
+
+    .navbar {
+      background-color: #0056b3;
+      padding: 10px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+      background: linear-gradient(to right, red 25%, green 25% 50%, yellow 50% 75%, blue 75%);
+      color: rgb(0, 0, 0);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .news-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+    }
+
+    .news-header img {
+      width: 300px;
+      height: auto;
+      margin-left: 20px;
+      border-radius: 5px;
+    }
+
+    .headline {
+      background-color: #cceeff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .headline h1 {
+      font-size: 50px;
+      margin: 0;
+    }
+
+    .paragraph-with-image {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .paragraph-with-image img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    
+
+    .paragraph-with-image p {
+      margin: 0;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">WICNews</div>
+    <div class="nav-links">
+      <a href="#">Inicio</a>
+      <a href="#">Nacionales</a>
+      <a href="#">Internacionales</a>
+      <a href="#">Mascotas</a>
+      <a href="#">Cultura</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="news-header">
+      <div class="headline">
+        <h1>Rescatan a más de 20 perritos en operativo conjunto en las afueras de Talca</h1>
+      </div>
+      <img src="https://tse4.mm.bing.net/th/id/OIP.MFOWbp78WD1Z_uJxpoKp1wHaEK?pid=Api" alt="Perritos rescatados">
+    </div>
+
+    <div class="paragraph-with-image">
+      <p>En una operación coordinada entre la Municipalidad, Carabineros y una fundación de protección animal, más de 20 perros fueron rescatados esta semana desde una parcela en condiciones de evidente abandono. Los animales vivían entre escombros, sin acceso regular a agua ni alimento, y en un entorno insalubre que evidenciaba una larga exposición al descuido. La denuncia fue realizada por vecinos del sector, quienes notaron el deterioro en el que se encontraban los animales y alertaron a las autoridades.</p>
+      <img src="perrovet.png" alt="Centro veterinario">
+    </div>
+
+    <div class="paragraph-with-image">
+        <img src="perrogente.png" alt="Autoridades en operativo" style="width: 200px;">
+      <p>Los perros, en su mayoría de tamaño mediano y pequeño, fueron trasladados de inmediato a centros veterinarios asociados a la fundación, donde recibieron atención médica y alimentación. Algunos presentaban signos de desnutrición, parásitos y enfermedades cutáneas, pero según los profesionales, todos tienen posibilidades de recuperación con los cuidados adecuados. “Este tipo de operativos demuestra la importancia de la colaboración entre instituciones y la ciudadanía”, señaló una vocera de la fundación.</p>
+    
+    </div>
+
+    <div class="paragraph-with-image">
+      <p>El municipio anunció que presentará acciones legales contra los responsables del abandono, y reiteró el llamado a denunciar situaciones similares a través de los canales oficiales. La ley chilena establece sanciones para quienes incurran en maltrato o abandono de animales, y desde el Departamento de Medio Ambiente confirmaron que se están reforzando las fiscalizaciones en sectores rurales donde suelen ocurrir este tipo de casos.</p>
+      <img src="perrosreja.png" alt="Perritos en adopción">
+    </div>
+
+    <div class="paragraph-with-image">
+      <p>Actualmente, los perritos rescatados se encuentran en proceso de recuperación y algunos ya están disponibles para ser adoptados por familias responsables. La fundación habilitó un formulario online para quienes estén interesados en brindarles un nuevo hogar. “Son animales muy cariñosos que, pese a lo vivido, conservan su confianza en las personas. Merecen una segunda oportunidad”, agregaron desde la organización.</p>
+      
+    </div>
+
+  </div>
+</body>
+</html>
